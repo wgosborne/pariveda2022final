@@ -83,13 +83,13 @@ namespace Paveida2
         {
             // Displaying Random Top
             Random rnd = new Random();
-        //    int num = rnd.Next(3,13);
-        //    string t;
+            int num = rnd.Next(3,13);
+            string t;
             //string fileName = @"C:\Users\wgosb\source\repos\Paveida2\ClothesPics\tops\";
-        //    t = Application.StartupPath + "\\ClothesPics\\tops\\" + num.ToString() + ".jpg";
+            t = Application.StartupPath + "\\ClothesPics\\tops\\" + num.ToString() + ".jpg";
             //t = Application.StartupPath + fileName + num.ToString() + ".jpg";
-        //    topPic.ImageLocation = t;
-        //    topPic.Visible = true;
+            topPic.ImageLocation = t;
+            topPic.Visible = true;
 
         }
 
