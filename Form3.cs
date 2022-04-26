@@ -193,6 +193,7 @@ namespace Paveida2
 
         private void searchBarTB_TextChanged(object sender, EventArgs e)
         {
+            //searching for entries
             string searchVal = searchBarTB1.Text;
             if (string.IsNullOrEmpty(searchBarTB1.Text) == false)
             {
@@ -254,6 +255,7 @@ namespace Paveida2
 
         private void DisplayOldQOTD(List<string> QOTDJournal, List<string> QOTDs)
         {
+            //displaying old QOTD
             int count = -1;
             oldQOTD.Clear();
             foreach (string q in QOTDs)
@@ -276,6 +278,7 @@ namespace Paveida2
 
         private void searchBarTB_TextChanged_1(object sender, EventArgs e)
         {
+            //searching through entries
             string searchVal = searchBarTB1.Text;
             if (string.IsNullOrEmpty(searchBarTB1.Text) == false)
             {
