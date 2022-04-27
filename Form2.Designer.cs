@@ -68,7 +68,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
+            this.pictureBox2.ErrorImage = null;
             this.pictureBox2.Location = new System.Drawing.Point(1274, 846);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(583, 495);

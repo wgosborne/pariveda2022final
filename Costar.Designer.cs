@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Costar));
             this.zodiacPanel = new System.Windows.Forms.Panel();
+            this.exitBttn = new System.Windows.Forms.Button();
             this.go = new System.Windows.Forms.Button();
             this.zodiacInfo = new System.Windows.Forms.TextBox();
             this.birthDay = new System.Windows.Forms.TextBox();
             this.enterBirthDay = new System.Windows.Forms.Label();
             this.enterBirthMonth = new System.Windows.Forms.Label();
             this.birthMonth = new System.Windows.Forms.TextBox();
-            this.exitBttn = new System.Windows.Forms.Button();
             this.zodiacPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +56,19 @@
             this.zodiacPanel.TabIndex = 0;
             this.zodiacPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.zodiacPanel_Paint);
             // 
+            // exitBttn
+            // 
+            this.exitBttn.BackColor = System.Drawing.Color.SlateBlue;
+            this.exitBttn.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.exitBttn.ForeColor = System.Drawing.Color.White;
+            this.exitBttn.Location = new System.Drawing.Point(696, 235);
+            this.exitBttn.Name = "exitBttn";
+            this.exitBttn.Size = new System.Drawing.Size(153, 52);
+            this.exitBttn.TabIndex = 5;
+            this.exitBttn.Text = "Exit";
+            this.exitBttn.UseVisualStyleBackColor = false;
+            this.exitBttn.Click += new System.EventHandler(this.exitBttn_Click);
+            // 
             // go
             // 
             this.go.BackColor = System.Drawing.Color.SlateBlue;
@@ -74,6 +87,7 @@
             this.zodiacInfo.Location = new System.Drawing.Point(154, 303);
             this.zodiacInfo.Multiline = true;
             this.zodiacInfo.Name = "zodiacInfo";
+            this.zodiacInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.zodiacInfo.Size = new System.Drawing.Size(700, 443);
             this.zodiacInfo.TabIndex = 4;
             // 
@@ -112,19 +126,6 @@
             this.birthMonth.Name = "birthMonth";
             this.birthMonth.Size = new System.Drawing.Size(491, 43);
             this.birthMonth.TabIndex = 0;
-            // 
-            // exitBttn
-            // 
-            this.exitBttn.BackColor = System.Drawing.Color.SlateBlue;
-            this.exitBttn.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.exitBttn.ForeColor = System.Drawing.Color.White;
-            this.exitBttn.Location = new System.Drawing.Point(696, 235);
-            this.exitBttn.Name = "exitBttn";
-            this.exitBttn.Size = new System.Drawing.Size(153, 52);
-            this.exitBttn.TabIndex = 5;
-            this.exitBttn.Text = "Exit";
-            this.exitBttn.UseVisualStyleBackColor = false;
-            this.exitBttn.Click += new System.EventHandler(this.exitBttn_Click);
             // 
             // Costar
             // 

@@ -168,5 +168,12 @@ namespace Paveida2
             weekTask.Clear();
             weekDate.Clear();
         }
+
+        private void randomToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //practice for clothes randomization
+            //ClothesRandomizer f8 = new ClothesRandomizer();
+            //f8.ShowDialog();
+        }
     }
 }
