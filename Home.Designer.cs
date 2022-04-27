@@ -89,7 +89,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStrip1.Size = new System.Drawing.Size(353, 1763);
+            this.menuStrip1.Size = new System.Drawing.Size(353, 2000);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -140,7 +140,7 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(36, 36);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(353, 1721);
+            this.statusStrip1.Location = new System.Drawing.Point(353, 1958);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(3227, 42);
             this.statusStrip1.TabIndex = 2;
@@ -160,7 +160,7 @@
             this.todayTB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.todayTB.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.todayTB.ForeColor = System.Drawing.Color.Black;
-            this.todayTB.Location = new System.Drawing.Point(2490, 923);
+            this.todayTB.Location = new System.Drawing.Point(2503, 1426);
             this.todayTB.Multiline = true;
             this.todayTB.Name = "todayTB";
             this.todayTB.Size = new System.Drawing.Size(705, 496);
@@ -174,7 +174,7 @@
             this.cuteStars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.cuteStars.Font = new System.Drawing.Font("Segoe UI", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cuteStars.ForeColor = System.Drawing.Color.Black;
-            this.cuteStars.Location = new System.Drawing.Point(513, 535);
+            this.cuteStars.Location = new System.Drawing.Point(516, 379);
             this.cuteStars.Name = "cuteStars";
             this.cuteStars.Size = new System.Drawing.Size(928, 112);
             this.cuteStars.TabIndex = 11;
@@ -185,7 +185,7 @@
             this.cuteFace.AutoSize = true;
             this.cuteFace.Font = new System.Drawing.Font("Segoe UI Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cuteFace.ForeColor = System.Drawing.Color.Black;
-            this.cuteFace.Location = new System.Drawing.Point(1988, 1075);
+            this.cuteFace.Location = new System.Drawing.Point(3097, 115);
             this.cuteFace.Name = "cuteFace";
             this.cuteFace.Size = new System.Drawing.Size(454, 96);
             this.cuteFace.TabIndex = 13;
@@ -196,7 +196,7 @@
             this.cuteThings.AutoSize = true;
             this.cuteThings.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cuteThings.ForeColor = System.Drawing.Color.Black;
-            this.cuteThings.Location = new System.Drawing.Point(513, 1614);
+            this.cuteThings.Location = new System.Drawing.Point(894, 1631);
             this.cuteThings.Name = "cuteThings";
             this.cuteThings.Size = new System.Drawing.Size(1253, 72);
             this.cuteThings.TabIndex = 15;
@@ -207,7 +207,7 @@
             this.writeTo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.writeTo.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.writeTo.ForeColor = System.Drawing.Color.Black;
-            this.writeTo.Location = new System.Drawing.Point(1011, 763);
+            this.writeTo.Location = new System.Drawing.Point(1014, 607);
             this.writeTo.Multiline = true;
             this.writeTo.Name = "writeTo";
             this.writeTo.Size = new System.Drawing.Size(396, 601);
@@ -219,7 +219,7 @@
             this.entryBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.entryBox.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.entryBox.ForeColor = System.Drawing.Color.Black;
-            this.entryBox.Location = new System.Drawing.Point(534, 763);
+            this.entryBox.Location = new System.Drawing.Point(537, 607);
             this.entryBox.Name = "entryBox";
             this.entryBox.PlaceholderText = "Add To Do Items...";
             this.entryBox.Size = new System.Drawing.Size(360, 47);
@@ -231,7 +231,7 @@
             this.entryBttn.BackColor = System.Drawing.Color.White;
             this.entryBttn.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.entryBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.entryBttn.Location = new System.Drawing.Point(534, 833);
+            this.entryBttn.Location = new System.Drawing.Point(537, 677);
             this.entryBttn.Name = "entryBttn";
             this.entryBttn.Size = new System.Drawing.Size(169, 52);
             this.entryBttn.TabIndex = 19;
@@ -244,7 +244,7 @@
             this.writeToLabel.AutoSize = true;
             this.writeToLabel.Font = new System.Drawing.Font("Segoe UI Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.writeToLabel.ForeColor = System.Drawing.Color.Black;
-            this.writeToLabel.Location = new System.Drawing.Point(1091, 690);
+            this.writeToLabel.Location = new System.Drawing.Point(1094, 534);
             this.writeToLabel.Name = "writeToLabel";
             this.writeToLabel.Size = new System.Drawing.Size(236, 57);
             this.writeToLabel.TabIndex = 20;
@@ -254,7 +254,7 @@
             // monthCalendar1
             // 
             this.monthCalendar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.monthCalendar1.Location = new System.Drawing.Point(534, 954);
+            this.monthCalendar1.Location = new System.Drawing.Point(537, 798);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 22;
             this.monthCalendar1.TitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -286,7 +286,7 @@
             this.weekTable.Controls.Add(this.label7, 6, 0);
             this.weekTable.Controls.Add(this.label6, 5, 0);
             this.weekTable.Controls.Add(this.textBox1, 0, 1);
-            this.weekTable.Location = new System.Drawing.Point(1628, 27);
+            this.weekTable.Location = new System.Drawing.Point(1681, 407);
             this.weekTable.Name = "weekTable";
             this.weekTable.RowCount = 2;
             this.weekTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.92115F));
@@ -460,7 +460,7 @@
             this.weekAdd.BackColor = System.Drawing.Color.White;
             this.weekAdd.Font = new System.Drawing.Font("Segoe UI Black", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.weekAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.weekAdd.Location = new System.Drawing.Point(3337, 691);
+            this.weekAdd.Location = new System.Drawing.Point(3390, 1071);
             this.weekAdd.Name = "weekAdd";
             this.weekAdd.Size = new System.Drawing.Size(169, 102);
             this.weekAdd.TabIndex = 25;
@@ -470,7 +470,7 @@
             // 
             // weekTask
             // 
-            this.weekTask.Location = new System.Drawing.Point(1628, 691);
+            this.weekTask.Location = new System.Drawing.Point(1681, 1071);
             this.weekTask.Multiline = true;
             this.weekTask.Name = "weekTask";
             this.weekTask.PlaceholderText = "Enter Task/Event Here...";
@@ -479,7 +479,7 @@
             // 
             // weekDate
             // 
-            this.weekDate.Location = new System.Drawing.Point(2788, 696);
+            this.weekDate.Location = new System.Drawing.Point(2841, 1076);
             this.weekDate.Multiline = true;
             this.weekDate.Name = "weekDate";
             this.weekDate.PlaceholderText = "Enter Day of the Week...";
@@ -492,7 +492,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(3580, 1763);
+            this.ClientSize = new System.Drawing.Size(3580, 2000);
             this.Controls.Add(this.weekDate);
             this.Controls.Add(this.weekTask);
             this.Controls.Add(this.weekAdd);
