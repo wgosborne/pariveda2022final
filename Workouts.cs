@@ -16,6 +16,8 @@ namespace Paveida2
         public Workouts()
         {
             InitializeComponent();
+            DisplayAllWorkouts(cardio, abs, legDay, backBicep, chestShoulders);
+
         }
 
         List<string> cardio = new List<string>
@@ -80,6 +82,7 @@ namespace Paveida2
             "Cardio",
             "abs"
         };
+        //List<string> other = new List<string>();
 
         private void Workouts_Load(object sender, EventArgs e)
         {
@@ -89,11 +92,15 @@ namespace Paveida2
 
         private void liftingBttn_Click(object sender, EventArgs e)
         {
+            //Lifts Button Clicked
+
             DisplayLifts(legDay, backBicep, chestShoulders);
         }
 
         private void DisplayLifts(List<string> legDay, List<string> backBicep, List<string> chestShoulders)
         {
+            //Display Lifts Method
+
             int count = -1;
             allWorkoutsTB.Clear();
             foreach (string w in legDay)
@@ -107,6 +114,8 @@ namespace Paveida2
 
         private void DisplayAllWorkouts(List<string> cardio, List<string> abs, List<string> legDay, List<string> backBicep, List<string> chestShoulders)
         {
+            //Display All Workouts Method
+
             int count = -1;
             allWorkoutsTB.Clear();
             foreach (string w in legDay)
@@ -117,21 +126,28 @@ namespace Paveida2
                 allWorkoutsTB.Text += "\r\n" + backBicep[count] + "\r\n";
                 allWorkoutsTB.Text += "\r\n" + abs[count] + "\r\n";
                 allWorkoutsTB.Text += "\r\n" + chestShoulders[count] + "\r\n";
+                //allWorkoutsTB.Text += "\r\n" + other[count] + "\r\n";
             }
         }
 
         private void allBttn_Click(object sender, EventArgs e)
         {
+            //All Button Clicked
+
             DisplayAllWorkouts(cardio, abs, legDay, backBicep, chestShoulders);
         }
 
         private void cardioBttn_Click(object sender, EventArgs e)
         {
+            //Cardio Button Clicked
+
             DisplayCardio(cardio);
         }
 
         private void DisplayCardio(List<string> cardio)
         {
+            //Display Cardio Method
+
             int count = -1;
             allWorkoutsTB.Clear();
             foreach (string r in cardio)
@@ -143,11 +159,15 @@ namespace Paveida2
 
         private void allWorkoutsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //All Workouts Button Clicked
+
+
             allWorkoutsPanel.Visible = true;
             liftingBttn.Visible = true;
             cardioBttn.Visible = true;
             allBttn.Visible = true;
             allWorkoutsTB.Visible = true;
+            //addWrktPanel.Visible = true;
 
             thisWeekPanel.Visible = false;
             tableLayoutPanel1.Visible = false;
@@ -198,12 +218,14 @@ namespace Paveida2
         }
         private void thisWeekToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //This Week Tab Clicked
             //int rand = GetRandom();
             allWorkoutsPanel.Visible = false;
             liftingBttn.Visible = false;
             cardioBttn.Visible = false;
             allBttn.Visible = false;
             allWorkoutsTB.Visible = false;
+            //addWrktPanel.Visible = true;
 
             thisWeekPanel.Visible = true;
             tableLayoutPanel1.Visible = true;
@@ -277,6 +299,7 @@ namespace Paveida2
             cardioBttn.Visible = false;
             allBttn.Visible = false;
             allWorkoutsTB.Visible = false;
+            //addWrktPanel.Visible = true;
 
             thisWeekPanel.Visible = false;
             tableLayoutPanel1.Visible = false;
@@ -486,6 +509,30 @@ namespace Paveida2
         {
             checkedListBox1.Items.Add(reminders.Text);
             reminders.Clear();
+        }
+
+        private void addWorkoutBttn_Click(object sender, EventArgs e)
+        {
+            //adding workouts
+            //addWrktName addWrktType
+
+            allWorkoutsPanel.Visible = true;
+            liftingBttn.Visible = true;
+            cardioBttn.Visible = true;
+            allBttn.Visible = true;
+            allWorkoutsTB.Visible = true;
+            addWrktPanel.Visible = true;
+
+            addWrktName.Clear();
+            addWrktType.Clear();
+            if (addWrktType.Text.ToLower() == "cardio")
+            {
+                cardio.Add(addWrktName.Text);
+            }
+            else
+            {
+                //other.Add(addWrktName.Text);
+            }
         }
     }
 }

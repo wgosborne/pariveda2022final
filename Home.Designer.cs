@@ -165,6 +165,7 @@
             this.todayTB.Name = "todayTB";
             this.todayTB.Size = new System.Drawing.Size(705, 496);
             this.todayTB.TabIndex = 9;
+            this.todayTB.TabStop = false;
             this.todayTB.TextChanged += new System.EventHandler(this.todayTB_TextChanged);
             // 
             // cuteStars

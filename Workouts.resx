@@ -61,6 +61,25 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="addWorkoutBttn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAvRJREFUeF7t3UmKFAEUhOE+gNNVnA7gcEKnvfNKFA8iCg5L9Qrqxo36Al2GRYXV
+        aWYU/wf/ShuSikVjCS9PAAAAAAAAAAAAAAAAjsDV6d70Yfr2p/fT3enyhCN1dno6/Zh+/iX92eNJfxdH
+        5Pz0ZnKju15P5yYciZeTG3pXzyccgZuTG3ifrk8o92Ry4+7TwwnlPk1u3H36OKHc98mNu0/6WZRzwyah
+        nBs1CeXcqEko50ZNQjk3ahLKuVGTUM6NmoRybtQklHOjJqGcGzUJ5dyoSSjnRk1COTdqEsq5UZNQzo2a
+        hHJu1CSUc6MmoZwbNQnl3KhJKOdGTUI5N2oSyrlRk1DOjZqEcm7UJJRzoyahnBs1CeXcqEko50ZNQjk3
+        ahLKuVGTUM6NmoRybtQkhHST59H0eTrkOAP9Tp+hPkt9pjemzbow/cs1Lsp6Mens3abosGJyh48OS3cM
+        z0yboQuc7kFpuTZzwUy3d3edX6Vl0me+idvGOrzsHpCW7/a0Ol3ddg9Hy6cr56vTuXX3cLR8X6fV6SHc
+        w9HyfZlWx6+A9Xo3rU5v2nAPR8t3a1rdlYl/Bv7/9JlfmjZB31O7h6Tluj9thr4K1teT7kHp9Hs1beqr
+        YNE7dvSaFffAdHo9mzb9PiO9ZuXBpBc18N/Bh6fPUC+u0Gd6bULIfahJKOdGTUI5N2oSyrlRk1DOjZqE
+        cm7UJJRzoyahnBs1CeXcqEko50ZNQjk3ahLKuVGTUM6NmoRybtQklHOjJqGcGzUJ5dyoSSjnRk1COTdq
+        Esq5UZNQzo2ahHJu1CSUc6MmoZwbNQnl3KhJKOdGTUI5N2oSyrlRk1DOjZqEcm7UJJRzoyahnBs1CeUO
+        OVKhn0U5XSpx4+6TLnOg3CEXzDZ1iQv/Rq9ZcePuEzd5joRes+IG3pWuceFI6B07yR1D3eHb9Ck25HRY
+        Ua9Z2XXWVn+m3/ubO8KI06P7uncmXdrWuw7U20lv37g4AQAAAAAAAAAAAAAAFDs5+QUAx4qkr88CfgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIAAxDQAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAlw

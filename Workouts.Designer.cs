@@ -35,6 +35,10 @@
             this.marathonTrainingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allWorkoutsPanel = new System.Windows.Forms.Panel();
+            this.addWrktPanel = new System.Windows.Forms.Panel();
+            this.addWrktName = new System.Windows.Forms.TextBox();
+            this.addWorkoutBttn = new System.Windows.Forms.Button();
+            this.addWrktType = new System.Windows.Forms.TextBox();
             this.allBttn = new System.Windows.Forms.Button();
             this.cardioBttn = new System.Windows.Forms.Button();
             this.liftingBttn = new System.Windows.Forms.Button();
@@ -88,6 +92,7 @@
             this.week1TB = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.allWorkoutsPanel.SuspendLayout();
+            this.addWrktPanel.SuspendLayout();
             this.thisWeekPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.marathonTrainingPanel.SuspendLayout();
@@ -107,7 +112,7 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1320, 81);
+            this.menuStrip1.Size = new System.Drawing.Size(1385, 81);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -141,14 +146,52 @@
             // 
             // allWorkoutsPanel
             // 
+            this.allWorkoutsPanel.Controls.Add(this.addWrktPanel);
             this.allWorkoutsPanel.Controls.Add(this.allBttn);
             this.allWorkoutsPanel.Controls.Add(this.cardioBttn);
             this.allWorkoutsPanel.Controls.Add(this.liftingBttn);
             this.allWorkoutsPanel.Controls.Add(this.allWorkoutsTB);
             this.allWorkoutsPanel.Location = new System.Drawing.Point(99, 127);
             this.allWorkoutsPanel.Name = "allWorkoutsPanel";
-            this.allWorkoutsPanel.Size = new System.Drawing.Size(1067, 886);
+            this.allWorkoutsPanel.Size = new System.Drawing.Size(1067, 1088);
             this.allWorkoutsPanel.TabIndex = 1;
+            // 
+            // addWrktPanel
+            // 
+            this.addWrktPanel.Controls.Add(this.addWrktName);
+            this.addWrktPanel.Controls.Add(this.addWorkoutBttn);
+            this.addWrktPanel.Controls.Add(this.addWrktType);
+            this.addWrktPanel.Location = new System.Drawing.Point(85, 895);
+            this.addWrktPanel.Name = "addWrktPanel";
+            this.addWrktPanel.Size = new System.Drawing.Size(935, 126);
+            this.addWrktPanel.TabIndex = 7;
+            // 
+            // addWrktName
+            // 
+            this.addWrktName.Location = new System.Drawing.Point(26, 41);
+            this.addWrktName.Name = "addWrktName";
+            this.addWrktName.PlaceholderText = "Name of Workout...";
+            this.addWrktName.Size = new System.Drawing.Size(401, 43);
+            this.addWrktName.TabIndex = 4;
+            // 
+            // addWorkoutBttn
+            // 
+            this.addWorkoutBttn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addWorkoutBttn.BackgroundImage")));
+            this.addWorkoutBttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.addWorkoutBttn.Location = new System.Drawing.Point(815, 36);
+            this.addWorkoutBttn.Name = "addWorkoutBttn";
+            this.addWorkoutBttn.Size = new System.Drawing.Size(59, 52);
+            this.addWorkoutBttn.TabIndex = 5;
+            this.addWorkoutBttn.UseVisualStyleBackColor = true;
+            this.addWorkoutBttn.Click += new System.EventHandler(this.addWorkoutBttn_Click);
+            // 
+            // addWrktType
+            // 
+            this.addWrktType.Location = new System.Drawing.Point(466, 41);
+            this.addWrktType.Name = "addWrktType";
+            this.addWrktType.PlaceholderText = "Type of Workout...";
+            this.addWrktType.Size = new System.Drawing.Size(280, 43);
+            this.addWrktType.TabIndex = 6;
             // 
             // allBttn
             // 
@@ -191,6 +234,7 @@
             this.allWorkoutsTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.allWorkoutsTB.Size = new System.Drawing.Size(931, 689);
             this.allWorkoutsTB.TabIndex = 0;
+            this.allWorkoutsTB.TabStop = false;
             // 
             // thisWeekPanel
             // 
@@ -199,7 +243,7 @@
             this.thisWeekPanel.Controls.Add(this.monthCalendar1);
             this.thisWeekPanel.Controls.Add(this.tableLayoutPanel1);
             this.thisWeekPanel.Controls.Add(this.checkedListBox1);
-            this.thisWeekPanel.Location = new System.Drawing.Point(54, 93);
+            this.thisWeekPanel.Location = new System.Drawing.Point(70, 157);
             this.thisWeekPanel.Name = "thisWeekPanel";
             this.thisWeekPanel.Size = new System.Drawing.Size(1049, 934);
             this.thisWeekPanel.TabIndex = 2;
@@ -441,17 +485,17 @@
             // 
             this.marathonTrainingPanel.Controls.Add(this.internetButton);
             this.marathonTrainingPanel.Controls.Add(this.tableLayoutPanel2);
-            this.marathonTrainingPanel.Location = new System.Drawing.Point(28, 156);
+            this.marathonTrainingPanel.Location = new System.Drawing.Point(12, 239);
             this.marathonTrainingPanel.Name = "marathonTrainingPanel";
-            this.marathonTrainingPanel.Size = new System.Drawing.Size(1185, 871);
+            this.marathonTrainingPanel.Size = new System.Drawing.Size(1193, 871);
             this.marathonTrainingPanel.TabIndex = 3;
             this.marathonTrainingPanel.Visible = false;
             // 
             // internetButton
             // 
-            this.internetButton.Location = new System.Drawing.Point(120, 802);
+            this.internetButton.Location = new System.Drawing.Point(422, 797);
             this.internetButton.Name = "internetButton";
-            this.internetButton.Size = new System.Drawing.Size(639, 52);
+            this.internetButton.Size = new System.Drawing.Size(633, 52);
             this.internetButton.TabIndex = 1;
             this.internetButton.Text = "Go To Hal Higdon Novice 2 Plan";
             this.internetButton.UseVisualStyleBackColor = true;
@@ -486,7 +530,7 @@
             this.tableLayoutPanel2.Controls.Add(this.week11, 0, 10);
             this.tableLayoutPanel2.Controls.Add(this.week12, 0, 11);
             this.tableLayoutPanel2.Controls.Add(this.week1TB, 1, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 13);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(141, 4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 12;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
@@ -765,7 +809,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1320, 1103);
+            this.ClientSize = new System.Drawing.Size(1385, 1320);
             this.Controls.Add(this.marathonTrainingPanel);
             this.Controls.Add(this.thisWeekPanel);
             this.Controls.Add(this.allWorkoutsPanel);
@@ -780,6 +824,8 @@
             this.menuStrip1.PerformLayout();
             this.allWorkoutsPanel.ResumeLayout(false);
             this.allWorkoutsPanel.PerformLayout();
+            this.addWrktPanel.ResumeLayout(false);
+            this.addWrktPanel.PerformLayout();
             this.thisWeekPanel.ResumeLayout(false);
             this.thisWeekPanel.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -850,5 +896,9 @@
         private Button internetButton;
         private Button reminderButton;
         private TextBox reminders;
+        private TextBox addWrktName;
+        private Button addWorkoutBttn;
+        private TextBox addWrktType;
+        private Panel addWrktPanel;
     }
 }
