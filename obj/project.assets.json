@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wgosb\\source\\repos\\Paveida2\\Paveida2.csproj",
+      "projectUniqueName": "C:\\Users\\wgosb\\source\\repos\\MIS221\\Paveida2\\Paveida2.csproj",
       "projectName": "Paveida2",
-      "projectPath": "C:\\Users\\wgosb\\source\\repos\\Paveida2\\Paveida2.csproj",
+      "projectPath": "C:\\Users\\wgosb\\source\\repos\\MIS221\\Paveida2\\Paveida2.csproj",
       "packagesPath": "C:\\Users\\wgosb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wgosb\\source\\repos\\Paveida2\\obj\\",
+      "outputPath": "C:\\Users\\wgosb\\source\\repos\\MIS221\\Paveida2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wgosb\\AppData\\Roaming\\NuGet\\NuGet.Config",

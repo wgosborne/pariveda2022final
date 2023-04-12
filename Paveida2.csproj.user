@@ -16,6 +16,9 @@
     <Compile Update="Recipes.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Shopping.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ToDoList.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -175,5 +175,12 @@ namespace Paveida2
             //ClothesRandomizer f8 = new ClothesRandomizer();
             //f8.ShowDialog();
         }
+
+        private void shoppingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //shopping page
+            Shopping f8 = new Shopping();
+            f8.ShowDialog();
+        }
     }
 }

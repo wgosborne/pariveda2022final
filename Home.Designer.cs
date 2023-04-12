@@ -65,6 +65,7 @@
             this.weekAdd = new System.Windows.Forms.Button();
             this.weekTask = new System.Windows.Forms.TextBox();
             this.weekDate = new System.Windows.Forms.TextBox();
+            this.shoppingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.weekTable.SuspendLayout();
@@ -84,6 +85,7 @@
             this.workoutsToolStripMenuItem,
             this.recipesToolStripMenuItem,
             this.calendarToolStripMenuItem,
+            this.shoppingToolStripMenuItem,
             this.fileToolStripMenuItem});
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -486,6 +488,13 @@
             this.weekDate.Size = new System.Drawing.Size(457, 97);
             this.weekDate.TabIndex = 27;
             // 
+            // shoppingToolStripMenuItem
+            // 
+            this.shoppingToolStripMenuItem.Name = "shoppingToolStripMenuItem";
+            this.shoppingToolStripMenuItem.Size = new System.Drawing.Size(346, 61);
+            this.shoppingToolStripMenuItem.Text = "Shopping";
+            this.shoppingToolStripMenuItem.Click += new System.EventHandler(this.shoppingToolStripMenuItem_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
@@ -567,5 +576,6 @@
         private Button weekAdd;
         private TextBox weekTask;
         private TextBox weekDate;
+        private ToolStripMenuItem shoppingToolStripMenuItem;
     }
 }
